@@ -15,14 +15,14 @@ export default function Index() {
       <h1>Clerk Demo - 401s on cold page view</h1>
       <ul>
         <SignedOut>
-        <li>
-          <Link to="/sign-in" rel="noreferrer">
-            Login Page
-          </Link>
-        </li>
-        <li>
-          <Link to="sign-up">Sign up Page</Link>
-        </li>
+          <li>
+            <Link to="/sign-in" rel="noreferrer">
+              Login Page
+            </Link>
+          </li>
+          <li>
+            <Link to="sign-up">Sign up Page</Link>
+          </li>
         </SignedOut>
         <SignedIn>
           <li>
